@@ -34,3 +34,8 @@ Get text from "test.png" (uses OCR)
 ```python
 extract_text("test.png")
 ```
+
+Get text from "test" which is an extensionless PDF file
+```python
+extract_text("test", ext="PDF")
+```
